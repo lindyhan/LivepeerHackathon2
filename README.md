@@ -1,3 +1,8 @@
+Livepeer image-to-video pipeline
+Use case: for famous people who have a fanbase, to turn their old photos into videos, so that their fans can have a feel of being with them LIVE, even before they got famous and even before videos were invented.
+
+https://github.com/user-attachments/assets/1f294e57-a808-4dbf-975a-64d873556cb8
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
