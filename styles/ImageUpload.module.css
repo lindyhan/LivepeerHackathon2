@@ -1,0 +1,81 @@
+/* ImageUpload.module.css */
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.uploadButton {
+  display: inline-block;
+  background-color: #0070f3; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+.fileInput {
+  display: none;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.videoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center video */
+  margin-top: 20px;
+}
+
+.video {
+  width: 130%; /* Increase video size by 30% */
+  height: auto;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.shareButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.shareIcon {
+  width: 20px; /* Decrease size by 20% */
+  height: 20px;
+}
+
+.boldText {
+  font-weight: bold; /* Make text bold */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

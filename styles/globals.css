@@ -1,0 +1,73 @@
+/* styles/globals.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    background-color: #f5f7fa;
+  }
+  
+  .upload-container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .upload-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .upload-container input[type='file'] {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .upload-container button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-container button:hover {
+    background-color: #005bb5;
+  }
+  
+  .upload-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .upload-container video {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .upload-container p.error {
+    color: red;
+    margin-top: 15px;
+  }
+  
